@@ -16,13 +16,13 @@ python generate_iid.py
 
 ### Run the SCI-BDVP algorithm for recovering video snapshot compressive imaging (SCI):
 
-#### 2.1. Noise free measurements reconstructioon with Generalized Alternative Projection (GAP):
+#### 2.1. Noise free measurements reconstruction with generalized alternative projection (GAP):
 
 ```
 python test_iterative.py --meas_noise 0 --denoise_method "GAP_dip" --step_size 1.0 --mask_path 'test_datasets/mask/binary_iid_mask_0.5.mat'
 ```
 
-#### 2.2. Noisy measurements reconstructioon with Projected Gradient Descent (PGD):
+#### 2.2. Noisy measurements reconstruction with projected gradient descent (PGD):
 
 ```
 python test_iterative.py --meas_noise 0.1 --denoise_method "GD_dip" --step_size 0.1 --mask_path 'test_datasets/mask/binary_iid_mask_0.5.mat'
