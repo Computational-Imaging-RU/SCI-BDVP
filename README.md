@@ -1,4 +1,8 @@
 # Untrained Neural Nets for Snapshot Compressive Imaging: Theory and Algorithms
+[![Static Badge](https://img.shields.io/badge/NeurIPS_2024_paper-arxiv_link-blue)
+](https://arxiv.org/abs/2406.03694) 
+[![Static Badge](https://img.shields.io/badge/NeurIPS_2024_paper-Open_Review-red)
+](https://openreview.net/forum?id=7aFEqIb1dp) 
 
 ## 1. Datasets and Masks
 
